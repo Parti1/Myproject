@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+.whole{
+  font-weight: bold;
+  color:rgba(93, 93, 161, 0.819);
+  margin: auto;
+  margin-top: 10px;
+  width: 900px;
+  padding: 1rem;
+  border: 3px solid rgba(93, 93, 161, 0.819);
+ 
+}
+.wrapper{
+  overflow: hidden;
+}
+.left{
+  text-align: center;
+  background-color: white;
+}
+.left img{
+  top: 40;
+  height: 110px;
+  float: center;
+}
+.middle h1{
+  font-weight: bold;
+  color:rgba(86, 86, 236, 0.819);
+  margin-top: auto;
+  text-align: center;
+  font-size: 16px;
+  line-height: 2;
+  background-color: white;
+}
+.middle p{
+  font-weight: bold;
+  color:rgba(86, 86, 236, 0.819);
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  
+
+}
+.right{
+  text-align: center;
+  background-color: white;
+}
+.box{
+  float: left;
+  width: 33.33%;
+  padding: 1rem;
+}
+.text{
+  
+ 
+  text-align: center;
+}
+.text p{
+ text-align: left;
+ line-height: 3;
+
+}
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 1rem 0;
+ 
+}
+table td{
+     width: 95px;
+     text-align: center;
+}
+table{
+    margin:auto;
+}
+.subject{
+    width :400px;
+    text-align: left;
+    padding: 1rem;
+
+}
+li{
+  font-weight: bold;
+  color:rgba(86, 86, 236, 0.819);
+}

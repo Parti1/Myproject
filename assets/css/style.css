@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.button{
+    border: none;
+    background-color: bisque;
+    padding:1rem 2.5rem ;
+    border-radius: 30px;
+    width: 200px;
+    transition: 2s;
+    /* transition-timing-function: ease; */
+    /* transition-timing-function: ease-in; */
+    /* transition-timing-function: ease-in-out; */
+    /* transition-timing-function: ease-out; */
+    /* transition-timing-function: step-end; */
+    /* transition-timing-function: linear; */
+    /* transition: delay; */
+    
+}
+ 
+.button:hover{
+    background-color: rgb(83, 176, 176);
+    width: 400px;
+}
+
+.slider-main{
+    border: 1px solid;
+    margin: auto;
+    width: 90%;
+    height: 500px;
+    /* overflow:hidden;
+     */
+}
+.slider{
+    background-image:url(../uploads/IMG_20200130_160359.jpg);
+    width: 100%;
+    height:500px;
+    position: relative;
+    animation-name: slider-name;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slider-name{
+    0%{
+        top: 0;
+        left: 0;
+        background-image: url(../uploads/IMG_20200130_160359.jpg);
+        background-size: 100% 400px;
+        
+        background-repeat: no-repeat;
+        
+       
+    }
+ 
+    25%{
+        background-image: url(../uploads/cute.jpg);
+        background-size: 100% 400px;
+        top:0;
+        left:0;
+       
+    
+        
+    }
+    50%{
+        background-image: url(../uploads/dog.jpg);
+        background-size: 100% 400px;
+        top:0;
+        left:0px;
+    
+    }
+    75%{
+        background-image: url(../uploads/girl.jpg);
+        background-size: 100% 400px;
+        top:0;
+        left:0x;
+    
+    }
+    100%{
+        background-image: url(../uploads/keyboard.jpg);
+        background-size: 100% 400px;
+        top:0;
+        left:00px;
+        
+    }
+
+}
+
+.new-slider::after{
+    height: 500px;
+    width: 100%;
+    content: "hello world";
+}
+.animation-main{
+    border: 1px solid;
+    margin: auto;
+    width: 90%;
+    height: 500px;
+    overflow:hidden;
+    
+}
+.animation1{
+    background-color: rgb(120, 95, 143);
+    width: 200px;
+    height:200px;
+    position: relative;
+    animation-name: animation-name;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+@keyframes animation-name{
+    0%{
+        top: 0;
+        left: 0;
+    }
+ 
+    25%{
+        top:0;
+        left:600px;
+       
+    
+        
+    }
+    50%{
+        top:0;
+        left:1000px;
+        transform: skew(170deg);
+        transform: rotate(360deg);
+    }
+    75%{
+        top:0;
+        left:600px;
+        transform: scale(2,2);
+        
+    }
+    100%{
+        top:0;
+        left:00px;
+        
+    }
+
+}
+
+
